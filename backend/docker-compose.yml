@@ -29,8 +29,6 @@ services:
             - "8080"
         volumes:
             - ../frontend:/home/node/app
-        environment:
-            NODE_ENV: development
         command: "npm run serve"
         networks:
             - app-network
