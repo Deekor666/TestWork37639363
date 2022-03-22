@@ -22,14 +22,16 @@ services:
             - app-network
 
     frontend:
-        stdin_open: true
+        image: node:current-alpine
         container_name: frontend
-        build:
-            context: ../frontend
-            dockerfile: Dockerfile
+        working_dir: /home/node/app
+        ports:
+            - "8080"
         volumes:
-            - ../frontend/node_modules:/app/node_modules
-            - ../frontend:/var/www/html/
+            - ../frontend:/home/node/app
+        environment:
+            NODE_ENV: development
+        command: "npm run serve"
         networks:
             - app-network
 
