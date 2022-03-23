@@ -6,12 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="a9d52e03-c8ed-4280-bd8c-e471862a65b8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app/Http/Controllers/APICompanyController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/database/migrations/2022_03_22_192505_create_companies_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/nginx/default.conf" beforeDir="false" afterPath="$PROJECT_DIR$/backend/nginx/default.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/resources/views/layouts/app.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/jsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/HelloWorld.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/HelloWorld.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/vue.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +199,7 @@
       <workItem from="1647977815631" duration="5828000" />
       <workItem from="1647983935174" duration="15000" />
       <workItem from="1647984326865" duration="8674000" />
-      <workItem from="1648021695589" duration="4138000" />
+      <workItem from="1648021695589" duration="5121000" />
     </task>
     <task id="LOCAL-00001" summary="troubles with connect to frontend container">
       <created>1647990325906</created>
@@ -215,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647992652310</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fix nginx config">
+      <created>1648025886439</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1648025886439</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,6 +246,7 @@
       <path value="$PROJECT_DIR$/frontend/hello-world" />
     </ignored-roots>
     <MESSAGE value="troubles with connect to frontend container" />
-    <option name="LAST_COMMIT_MESSAGE" value="troubles with connect to frontend container" />
+    <MESSAGE value="fix nginx config" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix nginx config" />
   </component>
 </project>
