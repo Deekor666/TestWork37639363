@@ -5,13 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9d52e03-c8ed-4280-bd8c-e471862a65b8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/app/Http/Controllers/Api/BookController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/Models/Book.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/database/migrations/2022_03_23_093806_create_books_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/database/seeders/BookSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/BoockEdit.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/BookCreate.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/BookShow.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/resourses/composables/books.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/router/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/jsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/HelloWorld.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/HelloWorld.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/vue.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/HelloWorld.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/BookIndex.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,6 +185,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/frontend/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -199,7 +212,7 @@
       <workItem from="1647977815631" duration="5828000" />
       <workItem from="1647983935174" duration="15000" />
       <workItem from="1647984326865" duration="8674000" />
-      <workItem from="1648021695589" duration="5121000" />
+      <workItem from="1648021695589" duration="12309000" />
     </task>
     <task id="LOCAL-00001" summary="troubles with connect to frontend container">
       <created>1647990325906</created>
@@ -222,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648025886439</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="reinstall vue with router and ts, scss">
+      <created>1648027062329</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1648027062329</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,6 +267,7 @@
     </ignored-roots>
     <MESSAGE value="troubles with connect to frontend container" />
     <MESSAGE value="fix nginx config" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix nginx config" />
+    <MESSAGE value="reinstall vue with router and ts, scss" />
+    <option name="LAST_COMMIT_MESSAGE" value="reinstall vue with router and ts, scss" />
   </component>
 </project>

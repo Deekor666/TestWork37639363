@@ -1,8 +1,5 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
+  <BookShow/>
   <router-view/>
 </template>
 
@@ -28,3 +25,9 @@ nav {
   }
 }
 </style>
+<script>
+import BookShow from "./components/BookShow.vue";
+export default {
+  components: {BookShow}
+}
+</script>

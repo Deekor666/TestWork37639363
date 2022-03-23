@@ -8,3 +8,6 @@ Route::get(
         return view('welcome');
     }
 );
+Route::view('/{any}', 'home')
+    ->middleware(['auth'])
+    ->where('any', '.*');
