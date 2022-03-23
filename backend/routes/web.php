@@ -3,11 +3,8 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get(
-    '/',
+    '/api',
     function () {
         return view('welcome');
     }
 );
-Route::get('{any}', function () {
-    return view('layouts.app');
-})->where('any', '.*');

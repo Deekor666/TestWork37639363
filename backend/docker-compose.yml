@@ -26,7 +26,7 @@ services:
         container_name: frontend
         working_dir: /home/node/app
         ports:
-            - "8080"
+            - "8080:8080"
         volumes:
             - ../frontend:/home/node/app
         command: "npm run serve"
